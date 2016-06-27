@@ -1,0 +1,33 @@
+<!--        <table class="table" style="margin-left:auto; margin-right:auto" >
+<!            <tr>
+<!                <td class="columntitle" ><b></b></td>
+<!                <td class="columntitle" ><b>CUI</b></td>
+<!                <td class="columntitle" ><b>Risk Factor</b></td>
+<!                <td class="columntitle" ><b>Value</b></td>
+<!                <td class="columntitle" ><b>Units</b></td>
+<!                <td class="columntitle" ><b></b></td>
+<!            </tr>
+            <!<div id = 'riskfactorsRows'>
+<!            <?php if (isset($riskfactors)) {
+<!                foreach($riskfactors as $riskfactor):?>   
+<!                    <tr <?= 'id = "'.$riskfactor['CUI'].'row"'?>>
+<!                        <td style= "text-align:center;">
+<!                            <button <?= 'id = "remove'.$riskfactor['CUI'].'"'?> >Remove</button>
+<!                        </td>
+<!                        <td style= "text-align:center;">
+<!                            <a <?= 'href="riskfactor.php?CUI='.$riskfactor['CUI'].'"' ?>><?= $riskfactor["CUI"] ?>
+<!                        </td>
+<!                        <td style= "text-align:center;">
+<!                            <?= $riskfactor["name"] ?></a>
+<!                        </td>
+<!                        <td style= "text-align:center;">
+<!                            <input <?= (' name = '.$riskfactor['CUI'].' type =' . $riskfactor["inputtype"] . $riskfactor["other_input_data"]) ?></input> 
+<!                        </td>
+<!                        <td style= "text-align:center;">
+<!                            <?= $riskfactor["units"] ?>
+<!                        </td>
+<!                    </tr>
+<!                <?php endforeach;
+<!            }?>
+<!            <!</div>
+<!        </table> -->

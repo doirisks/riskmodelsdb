@@ -1,0 +1,76 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.columntitle
+{
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.pagetitle
+{
+    font-family:Georgia, Serif;
+    font-size:35px;
+}
+
+.searchform {
+    padding-bottom:10px;
+}
+
+DIV.table 
+{
+    /*display:table;*/
+    /*class:table-condensed*/
+}
+FORM.tr, DIV.tr
+{
+    /*display:table-row;*/
+}
+SPAN.td
+{
+    /*display:table-cell;*/
+}
+/* example
+            <div class="table">
+                <form class="tr" method="post" action="blah.html">
+                    <span class="td"><input type="text"/></span>
+                    <span class="td"><input type="text"/></span>
+                </form>
+                <div class="tr">
+                    <span class="td">(cell data)</span>
+                    <span class="td">(cell data)</span>
+                </div>
+            </div>
+*/
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
